@@ -21,6 +21,6 @@ class why extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.why');
+        return view('frontend.components.why');
     }
 }

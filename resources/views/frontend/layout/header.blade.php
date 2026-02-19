@@ -18,9 +18,9 @@
     				<div class="top-left">
     					<!-- Info List -->
     					<ul class="info-list">
-    						<li><a href="#"><span class="icon flaticon-map"></span>Deokali, Ghazipur,Uttar-Pradesh-232339</a></li>
-    						<li><a href="#"><span class="icon flaticon-phone-call"></span>7309795563</a></li>
-    						<li><a href="#"><span class="icon flaticon-email"></span>Dr Baba Grouppvtltd@gmail.com</a></li>
+    						<li><a href="#" style="color:white;"><span class="icon flaticon-map" style="color:white;"></span>D22,Budh Vihar, Badarpur ,Delhi</a></li>
+    						<li><a href="#" style="color:white;"><span class="icon flaticon-phone-call" style="color:white;"></span>7309795563</a></li>
+    						<li><a href="#" style="color:white;"><span class="icon flaticon-email" style="color:white;"></span>Dr.BabaNetworkMarketingPrivateLimited@gmail.com</a></li>
     					</ul>
     				</div>
 
@@ -29,11 +29,11 @@
     					<span class="border-line"></span>
     					<!--Language-->
 
-    					<div class="language dropdown">
+    					<div class="language dropdown" style="color:White">
     						@if(Auth::check())
 {{ Auth()->user()->email}}
                             @else
-                           <a class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="/signup"> Register Now �</a>
+                           <a class="btn btn-default dropdown-toggle"  href="/signup"> Register Now �</a>
                             @endif
     					</div>
 
@@ -48,7 +48,7 @@
     		<div class="auto-container clearfix">
 
     			<div class="pull-left logo-box p-2" style="background-color:white ">
-    				<div class="logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" style="width:110px;" alt="Dr Baba Group HERBAL LIFE CARE PVT LTD" title=""></a></div>
+    				<div class="logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" style="width:110px;" alt="Dr. Baba Network Marketing Private Limited" title=""></a></div>
     			</div>
 
     			<div class="nav-outer clearfix">
@@ -78,7 +78,7 @@
     							<!-- <li><a href="product.html">Products</a></li> -->
                              @if(!Auth::check())
     <li><a href="/signup">Register</a></li>
-    <li><a href="/login">Login</a></li>
+    <li><a href="/signup#login">Login</a></li>
     @else
       <li><a href="/dashboard">Dashboard</a></li>
 @endif
@@ -113,7 +113,7 @@
     		<div class="auto-container clearfix">
     			<!--Logo-->
     			<div class="logo pull-left">
-    				<a href="index.html" title=""><img src="{{asset('frontend/images/logo.png')}}" style="max-width:110px" alt="Dr Baba Group HERBAL LIFE CARE PVT LTD" title=""></a>
+    				<a href="index.html" title=""><img src="{{asset('frontend/images/logo.png')}}" style="max-width:110px" alt="Dr. Baba Network Marketing Private Limited" title=""></a>
     			</div>
     			<!--Right Col-->
     			<div class="pull-right">
@@ -145,7 +145,7 @@
     		<div class="close-btn"><span class="icon flaticon-multiply"></span></div>
 
     		<nav class="menu-box">
-    			<div class="nav-logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" alt="Dr Baba Group HERBAL LIFE CARE PVT LTD" title=""></a></div>
+    			<div class="nav-logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" alt="Dr. Baba Network Marketing Private Limited" title=""></a></div>
     			<div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
     		</nav>
     	</div>

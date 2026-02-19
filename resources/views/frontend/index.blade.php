@@ -1,4 +1,4 @@
-@extends('layout/main')
+@extends('frontend/layout/main')
 @section('content')
 
         <!-- End Banner Section -->
@@ -130,7 +130,7 @@
         <section class="cta-section">
             <div class="auto-container">
                 <div class="inner-container">
-                    <div class="pattern-layer" style="background-image: url(images/pattern-4.png)"></div>
+                    <div class="pattern-layer" style="background-image: url('{{ asset("frontend/images/pattern-4.png")}}')"></div>
                     <div class="row clearfix">
 
                         <!-- Title Column -->

@@ -1,5 +1,5 @@
-        <footer class="main-footer" style="background-image: url(images/2.jpg)">
-    	<div class="pattern-layer" style="background-image: url(images/pattern-6.png)"></div>
+        <footer class="main-footer" style="background-image: url({{asset('frontend/images/2.jpg')}})">
+    	<div class="pattern-layer" style="background-image: url({{asset('frontend/images/pattern-6.png')}})"></div>
     	<div class="auto-container">
     		<!--Widgets Section-->
     		<div class="widgets-section">
@@ -8,10 +8,10 @@
     				<div class="footer-column col-lg-4 col-md-6 col-sm-12">
     					<div class="footer-widget logo-widget">
     						<div class="logo">
-    							<a href="index.html"><img src="images/logo.png" alt="Dr Baba Group HERBAL LIFE CARE PVT LTD" style="max-width:110px"></a>
+    							<a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" alt="Dr. Baba Network Marketing Private Limited" style="max-width:110px"></a>
     						</div>
     						<div class="text">
-    							Dr Baba Group established in 2000 has been one of the most genuine and rapidly growing direct selling companies in the health and aayurveda industry. With a strong commitment to purity, innovation, and customer satisfaction, Dr Baba Group continues to expand exponentially.
+    							Dr. Baba Network Marketing Private Limited established in 2000 has been one of the most genuine and rapidly growing direct selling companies in the health and aayurveda industry. With a strong commitment to purity, innovation, and customer satisfaction, Dr. Baba Network Marketing Private Limited continues to expand exponentially.
     						</div>
     						<!-- Social Box -->
     						<ul class="social-box">
@@ -34,7 +34,7 @@
     									<li><a href="/about-us">About Us</a></li>
     									<!-- <li><a href="product.html">Product</a></li> -->
     									<li><a href="/signup">Register</a></li>
-    									<li><a href="/login">Login</a></li>
+    									<li><a href="/signup#login">Login</a></li>
 
     								</ul>
     							</div>
@@ -59,12 +59,12 @@
     						<h4>Contact Information</h4>
     						<h6>Get In Touch</h6>
     						<ul class="list-style-two">
-    							<li><span class="icon flaticon-map"></span>Deokali, Ghazipur,Uttar-Pradesh-232339</li>
+    							<li><span class="icon flaticon-map"></span>D22, BudhVihar, Badarpur,Near Dharamveer Market, Tajpur Pahari,Badarpur ,Delhi</li>
     							<li><span class="icon flaticon-phone-call"></span><a href="#">7309795563</a></li>
-    							<li><span class="icon flaticon-big-envelope"></span><a href="#">Dr Baba Grouppvtltd@gmail.com</a></li>
+    							<li><span class="icon flaticon-big-envelope"></span><a href="#">Dr.BabaNetworkMarketingPrivateLimited@gmail.com</a></li>
     						</ul>
     						<h6>Opening Hours</h6>
-    						<div class="timing">Mon - Sat 10:00am To 6:00pm Sunday: Off</div>
+    						<div class="timing">Mon - Sat 10:00am To 10:00pm Sunday: Off</div>
     					</div>
     				</div>
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Plan;
 
 class PlanController extends Controller
 {
@@ -12,7 +13,8 @@ class PlanController extends Controller
     public function index()
     {
         //
-        return view('admin.plan');
+        $data = Plan::all();
+        return view('admin.plan',["data" => $data]);
     }
 
     /**
@@ -30,6 +32,22 @@ class PlanController extends Controller
     public function store(Request $request)
     {
         //
+      try {
+    Plan::create($request->only([
+        'level',
+        'member',
+        'income'
+    ]));
+    return redirect('/admin/plan/index')
+            ->with('success', 'Plan created successfully');
+            dd("mughis");
+} catch (\Exception $e) {
+    dd("raghib");
+    return redirect('/admin/plan/create')
+            ->with('error', 'Plan not created');
+}
+
+
     }
 
     /**

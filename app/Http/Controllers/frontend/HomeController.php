@@ -5,6 +5,7 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Plan;
 use Hash;
 use Auth;
 use Illuminate\Support\Facades\Session;
@@ -75,6 +76,12 @@ public function dashboard() {
 }
 
 public function plan() {
-    return view('frontend/plan');
+$data = Plan::all();
+    return view('frontend/plan',['data' => $data]);
 }
+ public function logout() {
+        Session::flush();
+        Auth::logout();
+return Redirect('admin');
+    }
 }

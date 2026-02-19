@@ -21,6 +21,6 @@ class about extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.about');
+        return view('frontend.components.about');
     }
 }

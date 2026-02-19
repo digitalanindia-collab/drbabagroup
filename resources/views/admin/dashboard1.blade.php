@@ -35,7 +35,7 @@
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link" href="#" data-bs-toggle="dropdown" id="profileDropdown">
               <img src="{{asset('backend/assets/images/faces/face5.jpg')}}" alt="profile"/>
-              <span class="nav-profile-name">{{ Auth()->user()->name}}</span>
+              <span class="nav-profile-name">{{ Auth()->user()->email}}</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -144,7 +144,7 @@
                   </div>
                 </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject fw-normal"><a class="preview-subject fw-normal" href="/logout">Logout</a></h6>
+                  <h6 class="preview-subject fw-normal"><a class="preview-subject fw-normal" href="/admin/logout">Logout</a></h6>
 
                 </div>
               </a>
@@ -213,14 +213,14 @@
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="typcn typcn-document-text menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Plan</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('plan.index')}}">list</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('plan.create')}}">Add</a></li>
+
               </ul>
             </div>
           </li>

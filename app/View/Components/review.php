@@ -21,6 +21,6 @@ class review extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.review');
+        return view('frontend.components.review');
     }
 }

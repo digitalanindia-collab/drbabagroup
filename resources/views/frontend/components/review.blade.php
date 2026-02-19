@@ -1,9 +1,9 @@
-  <section class="testimonial-section" style="background-image: url(images/pattern-2.png)">
+  <section class="testimonial-section" style="background-image: url({{asset('frontend/images/pattern-2.png')}})">
             <div class="auto-container">
                 <!-- Sec Title -->
                 <div class="sec-title light centered">
                     <div class="title">Customer Reviews</div>
-                    <h2>What Customers Say About <span>Dr Baba Group HERBAL LIFE CARE PVT LTD</span></h2>
+                    <h2>What Customers Say About <span>Dr. Baba Network Marketing Private Limited</span></h2>
                 </div>
 
                 <div class="testimonial-outer">
@@ -32,7 +32,7 @@
                                     <div class="image-column col-lg-7 col-md-12 col-sm-12">
                                         <div class="inner-column">
                                             <div class="image">
-                                                <img src="images/testimonial-1.jpg" alt="Customer">
+                                                <img src="{{ asset('frontend/images/testimonial-1.jpg')}}" alt="Customer">
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@
                                     <div class="image-column col-lg-7 col-md-12 col-sm-12">
                                         <div class="inner-column">
                                             <div class="image">
-                                                <img src="images/testimonial-1.jpg" alt="Customer">
+                                                <img src="{{ asset('frontend/images/testimonial-1.jpg')}}" alt="Customer">
                                             </div>
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@
                                     <div class="image-column col-lg-7 col-md-12 col-sm-12">
                                         <div class="inner-column">
                                             <div class="image">
-                                                <img src="images/testimonial-1.jpg" alt="Customer">
+                                                <img src="{{ asset('frontend/images/testimonial-1.jpg')}}" alt="Customer">
                                             </div>
                                         </div>
                                     </div>
@@ -104,13 +104,13 @@
                     <div class="client-thumb-outer">
                         <div class="client-thumbs-carousel owl-carousel owl-theme">
                             <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/testimonial-thumb-1.jpg" alt="User"></figure>
+                                <figure class="thumb-box"><img src="{{asset('frontend/images/testimonial-thumb-1.jpg')}}" alt="User"></figure>
                             </div>
                             <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/testimonial-thumb-2.jpg" alt="User"></figure>
+                                <figure class="thumb-box"><img src="{{asset('frontend/images/testimonial-thumb-2.jpg')}}" alt="User"></figure>
                             </div>
                             <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/testimonial-thumb-3.jpg" alt="User"></figure>
+                                <figure class="thumb-box"><img src="{{asset('frontend/images/testimonial-thumb-3.jpg')}}" alt="User"></figure>
                             </div>
                         </div>
                     </div>

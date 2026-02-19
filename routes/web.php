@@ -1,18 +1,22 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\PlanController;
+use App\Http\Controllers\admin\AuthController;
+use App\Http\Controllers\admin\PlanController;
 use App\Http\Controllers\frontend\HomeController;
 
 Route::get('/', function () {
-    return view('index');
+    return view('frontend/index');
 });
 // Route::get('/signup',[AuthController::class,'signup']);
-Route::get('/admin',[AuthController::class,'admin_login']);
+Route::get('/admin',[AuthController::class,'admin_login'])->name("login");
 Route::post('/admin',[AuthController::class,'admin_post_login']);
+
+Route::middleware(['auth', 'admin'])->group(function () {
 Route::get('/admin/dashboard',[AuthController::class,'dashboard']);
-Route::get('/logout',[AuthController::class,'logout']);
+Route::get('/admin/logout',[AuthController::class,'logout']);
+Route::resource('/admin/plan',PlanController::class);
+ });
 
 //Customer
 
@@ -23,7 +27,14 @@ Route::post('/login',[HomeController::class,'login_post']);
 
 Route::get('/about-us',[HomeController::class,'aboutus']);
 Route::get('/contact-us',[HomeController::class,'contactus']);
-Route::get('/fallback',[HomeController::class,'fallback']);
+Route::get('/plan',[HomeController::class,'plan']);
+
+Route::middleware(['auth', 'customer'])->group(function () {
 Route::get('/dashboard',[HomeController::class,'dashboard']);
-Route::resource('/admin/plan',PlanController::class);
+Route::get('/logout',[HomeController::class,'logout']);
+ });
+
+
+Route::get('/fallback',[HomeController::class,'fallback']);
+
 

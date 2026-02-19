@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Dr. Baba Network Marketing Private Limited</title>
+  <title>Dr Baba Group Admin</title>
   <!-- base:css -->
   <link rel="stylesheet" href="{{asset('backend/assets/vendors/typicons/typicons.css')}}">
   <link rel="stylesheet" href="{{asset('backend/assets/vendors/css/vendor.bundle.base.css')}}">
@@ -144,7 +144,7 @@
                   </div>
                 </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject fw-normal"><a class="preview-subject fw-normal" href="/logout">Logout</a></h6>
+                  <h6 class="preview-subject fw-normal"><a class="preview-subject fw-normal" href="/admin/logout">Logout</a></h6>
 
                 </div>
               </a>
@@ -203,28 +203,28 @@
       <!-- partial:partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href="index.html">
               <i class="typcn typcn-device-desktop menu-icon"></i>
               <span class="menu-title">Dashboard</span>
               <div class="badge badge-danger">new</div>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="typcn typcn-document-text menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Plan</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+               <li class="nav-item"> <a class="nav-link" href="{{ route('plan.index')}}">List</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('plan.create')}}">Add</a></li>
+
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="typcn typcn-film menu-icon"></i>
               <span class="menu-title">Form elements</span>
@@ -254,7 +254,7 @@
               <span class="menu-title">Tables</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="tables">
+             <div class="collapse" id="tables">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
               </ul>
@@ -293,7 +293,7 @@
               <i class="typcn typcn-mortar-board menu-icon"></i>
               <span class="menu-title">Documentation</span>
             </a>
-          </li>
+          </li> --}}
         </ul>
       </nav>
       <!-- partial -->
@@ -301,6 +301,53 @@
         <div class="content-wrapper">
 
           <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  {{-- <h4 class="card-title">Basic Table</h4>
+                  <p class="card-description">
+                    Add class <code>.table</code>
+                  </p> --}}
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Sr.No</th>
+                          <th>Level</th>
+                          <th>Member</th>
+                          <th>Plan</th>
+                             <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @foreach ($data as $key=> $item)
+    <tr>
+                          <td>{{ $key+1}}</td>
+                          <td>{{ $item->level}}</td>
+                          <td>{{ $item->member}}</td>
+                           <td>{{ $item->income}}</td>
+                          <td>
+                            <label class="badge badge-danger">
+                                <form action="{{ url('/admin/plan/delete'.$item->id)}}" method="delete">
+                                    @csrf
+                                    @method('delete')
+                                <a href="" class="text-white" style="text-decoration: none">Delete</a>
+                                </form>
+                            </label>
+                            <label class="badge badge-primary"><a href="{{ route('plan.edit', $item->id) }}" class="text-white" style="text-decoration: none">Edit</a></label>
+
+                        </td>
+                        </tr>
+                        @endforeach
+
+
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-xl-6 grid-margin stretch-card flex-column">
                 {{-- <h5 class="mb-2 text-titlecase mb-4">Status statistics</h5>
               <div class="row">

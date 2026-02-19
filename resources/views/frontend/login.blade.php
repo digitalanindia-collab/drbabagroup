@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<title>Login : Dr Baba Group</title>
+<title>Login : Dr. Baba Network Marketing Private Limited</title>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 <meta content="" name="description">
 <meta content="" name="author">
@@ -13,7 +13,7 @@
 </head>
 <body class="pace-top">
 <div class="login-cover">
-<div class="login-cover-image" style="background-image: url(images/2.jpg)" data-id="login-cover-image"></div>
+<div class="login-cover-image" style="background-image: url({{asset('frontend/images/2.jpg')}})" data-id="login-cover-image"></div>
 <div class="login-cover-bg"></div>
 </div>
 <div id="page-container" class="">
@@ -23,7 +23,7 @@
         <b>Login Here</b>
     </div>
     <div class="icon">
-        <a href="https://Dr Baba Group.in">
+        <a href="/">
         <i class="fa fa-arrow-circle-left text-red"></i></a>
     </div>
 

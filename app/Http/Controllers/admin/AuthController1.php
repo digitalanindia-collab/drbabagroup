@@ -38,7 +38,7 @@ Auth::login($user);
 }
 
  public function dashboard() {
-
+//dd(Auth()->user());
         return view('admin/dashboard');
     }
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head>
     <meta charset="utf-8">
-    <title>Dr Baba Group HERBAL LIFE CARE PVT LTD</title>
+    <title>Dr. Baba Network Marketing Private Limited</title>
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,12 +16,12 @@
 <link rel="icon" href="{{asset('frontend/images/favicon.png')}}" type="image/x-icon">
 
 </head>
-@include('layout/header')
-@include('layout/banner')
+@include('frontend/layout/header')
+@include('frontend/layout/banner')
 
 
 @yield('content')
-@include('layout/footer')
+@include('frontend/layout/footer')
     <script src="{{ asset('frontend/js/jquery.js')}}"></script>
     <script src="{{ asset('frontend/js/popper.min.js')}}"></script>
     <script src="{{ asset('frontend/js/bootstrap.min.js')}}"></script>

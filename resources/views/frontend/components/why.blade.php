@@ -7,10 +7,10 @@
                         <!-- Content Column -->
                         <div class="content-column col-lg-7 col-md-12 col-sm-12">
                             <div class="inner-column">
-                                <div class="title">Why Choose Dr Baba Group HERBAL LIFE CARE PVT LTD</div>
+                                <div class="title">Why Choose Dr. Baba Network Marketing Private Limited</div>
                                 <h2>Pure, Natural & Research-Backed <span>Nutrition</span></h2>
                                 <p>
-                                    At Dr Baba Group HERBAL LIFE CARE PVT LTD, we believe that real health begins with real ingredients.
+                                    At Dr. Baba Network Marketing Private Limited, we believe that real health begins with real ingredients.
                                     Our supplements are crafted using clinically researched extracts, organic herbs
                                     and natural raw materials ensuring purity, safety and effectiveness in every dose.
                                 </p>
@@ -28,7 +28,7 @@
                         <div class="image-column col-lg-5 col-md-12 col-sm-12">
                             <div class="inner-column">
                                 <div class="image titlt" data-tilt="" data-tilt-max="3">
-                                    <img src="images/22.png" alt="Premium Food Supplements & Organic Products">
+                                    <img src="{{ asset('frontend/images/22.png')}}" alt="Premium Food Supplements & Organic Products">
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
 
                     <!-- Button Box -->
                     <div class="btn-box text-center">
-                        <a href="contact-us.html" class="theme-btn btn-style-three"><span class="txt">Contact
+                        <a href="/contactus" class="theme-btn btn-style-three"><span class="txt">Contact
                                 Us</span></a>
                     </div>
 

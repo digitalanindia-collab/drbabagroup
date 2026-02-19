@@ -1,5 +1,5 @@
  <section class="about-section">
-            <div class="pattern-layer" style="background-image: url(images/pattern-1.png)"></div>
+            <div class="pattern-layer" style="background-image: url({{asset('frontend/images/pattern-1.png')}})"></div>
             <div class="auto-container">
                 <div class="row clearfix">
 
@@ -15,11 +15,11 @@
                     <!-- Content Column -->
                     <div class="content-column col-lg-5 col-md-12 col-sm-12">
                         <div class="inner-column">
-                            <div class="title">About Dr Baba Group HERBAL LIFE CARE PVT LTD</div>
+                            <div class="title">About Dr. Baba Network Marketing Private Limited</div>
                             <h2> Premium Nutrition & <br> Organic Wellness <span>For Everyone</span></h2>
 
                             <p>
-                                At Dr Baba Group HERBAL LIFE CARE PVT LTD, we bring natural wellness closer to you through our premium range of
+                                At Dr. Baba Network Marketing Private Limited, we bring natural wellness closer to you through our premium range of
                                 organic products and nutritional supplements. Our mission is to enhance everyday health through
                                 safe, scientifically formulated, and high-quality ingredients.
                             </p>
@@ -33,7 +33,7 @@
 
                             <p>
                                 Whether you aim for better digestion, stronger immunity, improved stamina, or overall wellness,
-                                Dr Baba Group HERBAL LIFE CARE PVT LTD delivers trusted nutrition crafted for results. Choose quality, choose
+                                Dr. Baba Network Marketing Private Limited delivers trusted nutrition crafted for results. Choose quality, choose
                                 purity, and get supplements that your body truly deserves.
                             </p>
 
