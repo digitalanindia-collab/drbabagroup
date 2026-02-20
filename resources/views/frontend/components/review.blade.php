@@ -19,12 +19,10 @@
                                         <div class="inner-column">
                                             <span class="quote-icon flaticon-quote"></span>
                                             <div class="text">
-                                                I started using their immunity supplement and within 20 days
-                                                I felt more energetic, better digestion and improved sleep. Knowing it's
-                                                made from natural ingredients gives me full confidence!
+                                                I snuffed his oil for only one week the result was very fasciniting .I have been suffering from severe migraine issue . It not cared only migraine but also other stuff
                                             </div>
-                                            <div class="author">
-                                                Neha Sharma <span>Fitness Enthusiast</span>
+                                            <div class="author" style="color:white">
+                                                Sanjeev Mehta <span style="color:White">Fitness Enthusiast</span>
                                             </div>
                                         </div>
                                     </div>
@@ -32,7 +30,7 @@
                                     <div class="image-column col-lg-7 col-md-12 col-sm-12">
                                         <div class="inner-column">
                                             <div class="image">
-                                                <img src="{{ asset('frontend/images/testimonial-1.jpg')}}" alt="Customer">
+                                                <img src="{{ asset('frontend/images/testimonial02.jpg')}}" alt="Customer">
                                             </div>
                                         </div>
                                     </div>
@@ -49,11 +47,10 @@
                                         <div class="inner-column">
                                             <span class="quote-icon flaticon-quote"></span>
                                             <div class="text">
-                                                Their organic protein and multivitamin combo worked wonders for me.
-                                                I feel more active throughout the day, and my workouts have improved drastically!
+                                                Their organic medicine worked very well that gives me lot of energy for a whole day without worrying.
                                             </div>
-                                            <div class="author">
-                                                Neha Verma <span>Gym Trainer</span>
+                                            <div class="author" style="color:white">
+                                                Divya Verma <span style="color:white">Gym Trainer</span>
                                             </div>
                                         </div>
                                     </div>

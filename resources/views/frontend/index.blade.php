@@ -1,10 +1,11 @@
 @extends('frontend/layout/main')
 @section('content')
-
+@include('frontend/layout/banner')
         <!-- End Banner Section -->
         <!-- About Section -->
-        <banner />
-       <about />
+        {{-- @include('frontend/layout/banner') --}}
+        <x-banner />
+       <x-about />
 
         <!-- End About Section -->
         <!-- Services Section -->
@@ -28,10 +29,10 @@
                             <div class="icon-box">
                                 <span class="icon flaticon-user"></span>
                             </div>
-                            <h4><a href="#">Personal Health Guidance</a></h4>
+                            <h4><a href="#">Personal Health Care</a></h4>
                             <div class="text">
-                                Get personalized supplement recommendations based on immunity, digestive health, weight goals,
-                                and overall wellness for best long-term results.
+                                We support personalized supplement recommendations based on immunity, health and weight history,
+                                and overall wellness for long-term growth.
                             </div>
                             <a class="arrow" href="#">
                                 <span class="txt">More</span>
@@ -51,8 +52,8 @@
                             </div>
                             <h4><a href="#">Custom Nutritional Plans</a></h4>
                             <div class="text">
-                                Our experts help you customize daily nutrition plans including herbal supplements,
-                                energy boosters, detox blends, and immunity formulas tailored to your lifestyle.
+                                Our well trained experts help you to customize daily nutrition plans including herbal ayurveda,
+                                energy enancer and immunity formulas customized to your lifestyle.
                             </div>
                             <a class="arrow" href="#">
                                 <span class="txt">More</span>
@@ -70,10 +71,9 @@
                             <div class="icon-box">
                                 <span class="icon flaticon-user"></span>
                             </div>
-                            <h4><a href="#">Certified Organic Products</a></h4>
+                            <h4><a href="#">Nurturing mental freedom</a></h4>
                             <div class="text">
-                                All supplements are developed using pure, chemical-free ingredients and undergo strict quality,
-                                safety, and nutritional certifications before reaching you.
+We support bodily and emotionalthrough comprehensive wellness and sustainable growth happiness,delight, and well-being for individuals globally.
                             </div>
                             <a class="arrow" href="#">
                                 <span class="txt">More</span>
@@ -91,10 +91,9 @@
                             <div class="icon-box">
                                 <span class="icon flaticon-bar-chart"></span>
                             </div>
-                            <h4><a href="#">Fast & Trusted Delivery</a></h4>
+                            <h4><a href="#">Nationwide Expansion</a></h4>
                             <div class="text">
-                                Get your wellness essentials delivered quickly with secure packaging and temperature-safe
-                                shipment options for product freshness and authenticity.
+                               Our plan is to establish one NatureCare Wellness franchise at every district level and want to support and promote the initiatives and vision of both central and state Governments.
                             </div>
                             <a class="arrow" href="#">
                                 <span class="txt">More</span>

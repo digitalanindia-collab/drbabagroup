@@ -31,6 +31,7 @@ Route::get('/plan',[HomeController::class,'plan']);
 
 Route::middleware(['auth', 'customer'])->group(function () {
 Route::get('/dashboard',[HomeController::class,'dashboard']);
+Route::get('/rank',[HomeController::class,'view_rank'])->name("rank");
 Route::get('/logout',[HomeController::class,'logout']);
  });
 

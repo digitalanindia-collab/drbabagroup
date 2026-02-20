@@ -23,7 +23,7 @@ class CustomerMiddleware
          echo "admin";
  return  redirect('/admin');
        } else {
-        echo "customer";
+        // echo "customer";
        }
 
         return $next($request);

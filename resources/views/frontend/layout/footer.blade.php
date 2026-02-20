@@ -78,8 +78,11 @@
     		<div class="auto-container">
     			<div class="row clearfix">
     				<!-- Column -->
+                    <div class="column col-lg-6 col-md-12 col-sm-12">
+    					<div class="copyright">Copyright © 2026 | All Right Reserved</div>
+    				</div>
     				<div class="column col-lg-6 col-md-12 col-sm-12">
-    					<div class="copyright">Developed by <a href="https://digitalanindia.com/">Digitalanindia</a> 2026</div>
+    					<div class="copyright" style="text-align: end;">Developed by <a href="https://digitalanindia.com/" style="color:white"><b>Digitalanindia Technologies</b></a> 2026</div>
     				</div>
 
     			</div>

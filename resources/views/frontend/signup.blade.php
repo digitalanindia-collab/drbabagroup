@@ -53,6 +53,13 @@
                 <p class="help-block text-danger"></p>
                 @enderror
               </div>
+                <div class="form-group">
+                <label> Enter Sponsor<span class="req">*</span> </label>
+                <input type="text" class="form-control" name="sponsor_id" id="sponsor_id" required data-validation-required-message="Please enter your sponsor" autocomplete="off">
+               @error('phone')
+                <p class="help-block text-danger"></p>
+                @enderror
+              </div>
               <div class="form-group">
                 <label> Password<span class="req">*</span> </label>
                 <input type="password" class="form-control" name="password" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">

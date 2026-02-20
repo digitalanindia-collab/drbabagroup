@@ -83,7 +83,7 @@
       <li><a href="/dashboard">Dashboard</a></li>
 @endif
 
-    							<li><a href="/contact">Contact Us</a></li>
+    							<li><a href="/contact-us">Contact Us</a></li>
                                                          @if(Auth::check())
     <li><a href="/logout">Logout</a></li>
 @endif

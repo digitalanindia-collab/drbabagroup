@@ -10,15 +10,13 @@
                                 <div class="title">Why Choose Dr. Baba Network Marketing Private Limited</div>
                                 <h2>Pure, Natural & Research-Backed <span>Nutrition</span></h2>
                                 <p>
-                                    At Dr. Baba Network Marketing Private Limited, we believe that real health begins with real ingredients.
-                                    Our supplements are crafted using clinically researched extracts, organic herbs
-                                    and natural raw materials ensuring purity, safety and effectiveness in every dose.
+                                    At Dr. Baba Network Marketing Private Limited, we hold the conviction that authentic wellness starts with genuine components. Our supplements are formulated with scientifically validated extracts, organic botanicals, and natural unprocessed materials, guaranteeing integrity, safety, and potency in every serving.
                                 </p>
                                 <ul class="list-style-one">
-                                    <li> Certified Organic Ingredients</li>
+                                    <li> Organic Ingredients</li>
                                     <li> Scientifically Formulated Supplements</li>
-                                    <li> Natural Extraction & Processing</li>
-                                    <li> Zero Harmful Additives</li>
+                                    <li> Naturally Extracting & Processing</li>
+                                    <li> No Harmful Additives</li>
                                     <li>100% Transparency & Quality Assurance</li>
                                 </ul>
                             </div>
@@ -46,8 +44,7 @@
                                 <div class="number">01</div>
                                 <h5><a href="#">Our Vision</a></h5>
                                 <div class="text">
-                                    To become a globally trusted brand offering pure, organic supplements
-                                    that support a healthy lifestyle naturally and safely.
+                                   To establish a worldwide reputable brand that provides clean, natural supplements promoting a healthy lifestyle in a safe and organic way.
                                 </div>
                             </div>
                         </div>
@@ -58,8 +55,7 @@
                                 <div class="number">02</div>
                                 <h5><a href="#">Our Mission</a></h5>
                                 <div class="text">
-                                    To deliver nutrient-rich formulations made from natural and herbal sources
-                                    that enhance immunity, strength and overall wellness.
+                                    To provide formulations abundant in nutrients, crafted from natural and herbal origins that boost immunity, vigor, and holistic health.
                                 </div>
                             </div>
                         </div>
@@ -70,8 +66,11 @@
                                 <div class="number">03</div>
                                 <h5><a href="#">Our Philosophy</a></h5>
                                 <div class="text">
-                                    We follow nature-first philosophy—every product is mindfully produced,
-                                    ethically sourced and quality tested to deliver real health benefits.
+
+DropBox
+18/800
+Rewrite Text
+Our approach is rooted in a nature-first ethos—each item is carefully crafted, responsibly obtained, and rigorously tested to ensure authentic health advantages.
                                 </div>
                             </div>
                         </div>

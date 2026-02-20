@@ -7,7 +7,8 @@
                     <div class="image-column col-lg-7 col-md-12 col-sm-12">
                         <div class="inner-column">
                             <div class="image">
-                                <img src="images/1_1.png" alt="">
+                                <img src="{{ asset('frontend/images/about_us.png')}}" alt="" style="
+    object-fit: contain;width: 90%; ">
                             </div>
                         </div>
                     </div>
@@ -19,22 +20,15 @@
                             <h2> Premium Nutrition & <br> Organic Wellness <span>For Everyone</span></h2>
 
                             <p>
-                                At Dr. Baba Network Marketing Private Limited, we bring natural wellness closer to you through our premium range of
-                                organic products and nutritional supplements. Our mission is to enhance everyday health through
-                                safe, scientifically formulated, and high-quality ingredients.
+                              A global awareness campaign has been initiated for the overall development of human health at the international level through “NatureCare Wellness.” This campaign focuses on physical, mental, spiritual, emotional, social, and environmental well-being.
                             </p>
 
                             <div class="text">
-                                We believe in purity and transparency—that is why our products use naturally sourced
-                                ingredients paired with modern nutritional science. From immunity boosters and herbal extracts
-                                to fitness supplements and daily nutrition, our goal is to support healthier lifestyles
-                                naturally.
+                             Under this initiative, education, training, and complete healthcare systems are included, covering disease prevention, diagnosis, and treatment methods. It includes Panchakarma, Shatkarma, 28 body detoxification techniques, specialized body servicing methods, and approximately 105 organic Ayurvedic herbal medicines prepared from traditional Indian herbs, with a focus on body re-engineering.
                             </div>
 
                             <p>
-                                Whether you aim for better digestion, stronger immunity, improved stamina, or overall wellness,
-                                Dr. Baba Network Marketing Private Limited delivers trusted nutrition crafted for results. Choose quality, choose
-                                purity, and get supplements that your body truly deserves.
+                               With these objectives, “Dr. Baba Network Marketing Private Limited” has been established. The company aims to promote overall human development and create global awareness for the welfare of humanity.
                             </p>
 
                             <!-- Fact Counter -->
@@ -47,7 +41,7 @@
                                             <div class="content">
                                                 <div class="icon flaticon-soccer-cup"></div>
                                                 <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="3500" data-stop="60">0</span>+
+                                                    <span class="count-text" data-speed="3500" data-stop="50">0</span>+
                                                 </div>
                                                 <div class="counter-title">Certified Products</div>
                                             </div>
@@ -60,7 +54,7 @@
                                             <div class="content">
                                                 <div class="icon flaticon-flag"></div>
                                                 <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="2500" data-stop="10">0</span>+
+                                                    <span class="count-text" data-speed="2500" data-stop="20">0</span>+
                                                 </div>
                                                 <div class="counter-title">Years of Research</div>
                                             </div>
@@ -73,7 +67,7 @@
                                             <div class="content">
                                                 <div class="icon flaticon-book"></div>
                                                 <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="3000" data-stop="5000">0</span>+
+                                                    <span class="count-text" data-speed="3000" data-stop="1000">0</span>+
                                                 </div>
                                                 <div class="counter-title">Happy Customers</div>
                                             </div>
@@ -83,7 +77,7 @@
                                 </div>
                             </div>
 
-                            <a href="about-us.html" class="theme-btn btn-style-two">
+                            <a href="/about-us" class="theme-btn btn-style-two">
                                 <span class="txt">Learn More About Us</span>
                             </a>
 

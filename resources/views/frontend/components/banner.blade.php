@@ -9,13 +9,13 @@
                                     <div class="title">We Are Dr. Baba Network Marketing Private Limited</div>
                                     <h1>Build a Healthier Lifestyle with <span>Dr. Baba Network Marketing Private Limited</span></h1>
                                     <div class="text">
-                                        We provide premium organic wellness products, nutritional supplements, and plant-based formulations that support immunity, energy, fitness, and overall wellbeing.
+                                      A global awareness campaign has been initiated for the overall development of human health at the international level through “NatureCare Wellness.”
                                     </div>
                                     <div class="btns-box">
-                                        <a href="clog/signup.php" class="theme-btn btn-style-one">
+                                        <a href="/signup" class="theme-btn btn-style-one">
                                             <span class="txt">Join Organic Journey</span>
                                         </a>
-                                        <a href="about-us.html" class="theme-btn btn-style-two">
+                                        <a href="/about-us" class="theme-btn btn-style-two">
                                             <span class="txt">Know More</span>
                                         </a>
                                     </div>

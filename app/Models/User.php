@@ -24,6 +24,7 @@ class User extends Authenticatable
     'role',
     'email',
     'password',
+    'sponsor_id'
 ];
 
     /**
@@ -48,4 +49,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    public function followers()
+{
+    return $this->hasMany(User::class, 'sponsor_id');
+}
 }

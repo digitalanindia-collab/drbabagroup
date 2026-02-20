@@ -17,7 +17,7 @@
 
 </head>
 @include('frontend/layout/header')
-@include('frontend/layout/banner')
+{{-- @include('frontend/layout/banner') --}}
 
 
 @yield('content')

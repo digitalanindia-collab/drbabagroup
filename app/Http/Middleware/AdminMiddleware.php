@@ -26,7 +26,7 @@ class AdminMiddleware
       //  dd("yes");
   return redirect('/signup');
        }else {
-        echo "admin";
+        // echo "admin";
        }
         return $next($request);
     }
