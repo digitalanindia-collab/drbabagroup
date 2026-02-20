@@ -14,7 +14,7 @@
             <a class="nav-link" href="#" data-bs-toggle="dropdown" id="profileDropdown">
               <img src="{{asset('backend/assets/images/faces/face5.jpg')}}" alt="profile"/>
               <span style="color:green"><b>Sponsor:</b></span>
-              <span class="nav-profile-name">{{ $data['sponsor']}} </span>
+              <span class="nav-profile-name"> {{ $data['sponsor'] ?? 'No Sponsor' }} </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
